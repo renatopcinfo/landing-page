@@ -7,7 +7,7 @@ import * as S from './styles'
 import { gaEvent } from 'utils/ga'
 import Container from 'components/Container'
 import { LogoProps, HeaderProps } from 'types/api'
-import { getImageUrl } from '../../utils/getImageUrl'
+import { getImageUrl } from 'utils/getImageUrl'
 
 const onClick = () =>
   gaEvent({ action: 'click', category: 'cta', label: 'hero button' })
